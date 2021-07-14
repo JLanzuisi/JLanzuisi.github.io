@@ -1,4 +1,4 @@
-index.html: head.html body.html text.html
+index: head.html body.html text.html
 	cat head.html body.html > index.html
 
 body.html: text.html
