@@ -87,6 +87,85 @@
   text-rendering: optimizeLegibility;
 }
 
-body {
-  font-family: "Reforma2018";
+@media (max-width: 1400px) {
+  body {
+      font-family: Reforma2018;
+      text-align: justify;
+      line-height: 145%;
+      max-width: 40vw;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  body {
+      font-family: Reforma2018;
+      text-align: justify;
+      line-height: 145%;
+      max-width: 45vw;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 800px) {
+  body {
+      font-family: Reforma2018;
+      text-align: justify;
+      line-height: 145%;
+      max-width: 60vw;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      padding-left: 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+      font-family: Reforma2018;
+      text-align: justify;
+      line-height: 145%;
+      max-width: 95vw;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+}
+
+h1 {
+  line-height: 130%;
+  font-size: 3em;
+  font-weight: 300;
+  font-style: italic;
+  font-variant-numeric: lining-nums;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 130%;
+  font-weight: 300;
+  font-variant-numeric: lining-nums;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+p {
+  text-indent: 1.25em;
+  margin: 0;
+  widows: 2;
+  orphans: 2;
+}
+
+a {
+  color: darkred;
+  text-decoration-line: none;
+}
+
+blockquote {
+  text-indent: 0pt;
 }
