@@ -96,6 +96,8 @@
       padding-top: 5%;
       padding-bottom: 5%;
       padding-left: 10%;
+      font-size: 1.25em;
+      font-weight: 300;
   }
 }
 
@@ -108,6 +110,8 @@
       padding-top: 5%;
       padding-bottom: 5%;
       padding-left: 10%;
+      font-size: 1.25em;
+      font-weight: 300;
   }
 }
 
@@ -120,6 +124,8 @@
       padding-top: 5%;
       padding-bottom: 5%;
       padding-left: 10%;
+      font-size: 1.25em;
+      font-weight: 300;
   }
 }
 
@@ -131,6 +137,8 @@
       max-width: 95vw;
       padding-top: 5%;
       padding-bottom: 5%;
+      font-size: 1.25em;
+      font-weight: 300;
   }
 }
 
@@ -144,21 +152,14 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  line-height: 130%;
   font-weight: 300;
+  line-height: 130%;
   font-variant-numeric: lining-nums;
 }
 
 h3 {
   font-style: italic;
   font-weight: 500;
-}
-
-p {
-  text-indent: 1.25em;
-  margin: 0;
-  widows: 2;
-  orphans: 2;
 }
 
 a {
@@ -169,3 +170,7 @@ a {
 blockquote {
   text-indent: 0pt;
 }
+
+/* code {
+  font-family: ;
+} */
