@@ -12,4 +12,14 @@ Phasellus sit amet placerat mi. Nulla scelerisque nisl turpis, eu sollicitudin n
 
 Pellentesque facilisis vehicula varius. Aenean vitae massa erat. Praesent sit amet nunc sed ex tristique ullamcorper. Mauris sollicitudin posuere ante, quis dictum eros rutrum nec. Nullam at ante finibus purus ultrices varius at vitae neque. Aliquam rutrum felis libero, vitae euismod nulla posuere nec. Sed cursus nunc ex, ut tincidunt nisi pellentesque sed. Aenean purus felis, maximus et dapibus eu, facilisis quis arcu. Ut sit amet vestibulum ex. Donec et dignissim mi. Duis interdum molestie rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi eget facilisis dui. Cras sit amet velit pellentesque, dignissim orci at, eleifend quam. In pretium metus interdum, commodo mi ac, blandit mi. Aenean eu ultricies justo, a euismod dui.
 
+~~~~
+def test_proc() {
+  if (x > 0) {
+    print("test")
+  } else {
+    exit 0
+  }
+}
+~~~~
+
 Sed nec lacus a ante vehicula mollis. Mauris auctor fringilla massa, in varius lectus lobortis sed. Quisque et nulla venenatis, pulvinar elit sed, aliquam velit. Maecenas vestibulum lacus at lectus commodo, et ultricies nisl semper. `Duis volutpat at neque nec eleifend. Sed pellentesque dolor` nec felis pretium condimentum. Nunc posuere ultricies eros, quis ullamcorper massa feugiat in. Mauris egestas sapien vel euismod congue. Quisque at urna quam. Nunc vestibulum erat id mauris rutrum interdum. Integer sit amet felis diam. Aliquam quis urna ultricies, aliquet tortor nec, sagittis libero. Vestibulum faucibus arcu quis dolor tristique hendrerit.

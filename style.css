@@ -87,50 +87,52 @@
   text-rendering: optimizeLegibility;
 }
 
+/* Webfont: TeX Gyre Heros (Courier) */@font-face {
+  font-family: 'GyreHeros';
+  src: url('./fonts/texgyrecursor-regular-webfont.woff') format('woff'),
+       url('./fonts/texgyrecursor-regular-webfont.eot') format('woff'),
+       url('./fonts/texgyrecursor-regular-webfont.ttf') format('truetype');   
+  font-style: normal;
+}
+
+/* Webfont: TeX Gyre Heros (Courier) */@font-face {
+  font-family: 'GyreHeros';
+  src: url('./fonts/texgyrecursor-italic-webfont.woff') format('woff'),
+       url('./fonts/texgyrecursor-italic-webfont.eot') format('woff'),
+       url('./fonts/texgyrecursor-italic-webfont.ttf') format('truetype');   
+  font-style: italic;
+}
+
+body {
+  font-family: Reforma2018;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+}
+
 @media (max-width: 1400px) {
   body {
-      font-family: Reforma2018;
-      text-align: justify;
-      line-height: 145%;
       max-width: 40em;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left: 10%;
   }
 }
 
 @media (min-width: 800px) and (max-width: 1400px) {
   body {
-      font-family: Reforma2018;
-      text-align: justify;
-      line-height: 145%;
       max-width: 40em;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left: 10%;
   }
 }
 
 @media (min-width: 400px) and (max-width: 800px) {
   body {
-      font-family: Reforma2018;
-      text-align: justify;
-      line-height: 145%;
       max-width: 75vw;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left: 10%;
   }
 }
 
 @media (max-width: 400px) {
   body {
-      font-family: Reforma2018;
-      text-align: justify;
-      line-height: 145%;
       max-width: 95vw;
-      padding-top: 5%;
-      padding-bottom: 5%;
+      padding-left: 5%;
   }
 }
 
@@ -151,7 +153,7 @@ h2 {
 
 p {
   font-size: 1.25em;
-  line-height: 135%;
+  line-height: 1.55em;
   font-weight: 300;
 }
 
@@ -169,6 +171,7 @@ blockquote {
   text-indent: 0pt;
 }
 
-/* code {
-  font-family: ;
-} */
+code {
+  font-family: "GyreHeros";
+  font-size: 1.10em;
+}

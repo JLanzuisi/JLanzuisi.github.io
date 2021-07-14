@@ -6,7 +6,6 @@ body.html: text.html
 
 text.html: text.md
 	pandoc text.md -o text.html
-	sed -i "s/^/			/g" text.html
 
 .PHONY: clean
 
