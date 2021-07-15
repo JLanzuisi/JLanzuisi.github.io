@@ -1,9 +1,10 @@
-  <body>
-    <main>
+<body>
+  <main>
 
-    </main>
-    <footer>
-      
-    </footer>
-  </body>
+  </main>
+  <footer>
+  <-FOOTER->
+    
+  </footer>
+</body>
 </html>

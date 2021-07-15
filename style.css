@@ -151,7 +151,7 @@ h2 {
   font-variant-numeric: lining-nums;
 }
 
-p {
+main {
   font-size: 1.25em;
   line-height: 1.55em;
   font-weight: 300;
@@ -173,5 +173,25 @@ blockquote {
 
 code {
   font-family: "GyreHeros";
-  font-size: 1.10em;
+  font-size: 1.15em;
+}
+
+nav {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.4em;
+}
+
+.gototop {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  text-align: center;
+}
+
+.langbutton {
+  text-align: right;
+  text-transform: capitalize;
+  font-style: italic;
+  letter-spacing: 0pt;
 }
