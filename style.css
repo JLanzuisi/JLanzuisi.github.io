@@ -1,40 +1,22 @@
 @font-face {
-	font-family: 'FrauncesD';
-	src: url('./fonts/Fraunces72pt-Regular.woff2') format('woff2');
-	font-style: normal;
-}
-@font-face {
-	font-family: 'FrauncesD';
-	src: url('./fonts/Fraunces72pt-Italic.woff2') format('woff2');
+	font-family: 'AHL';
+	src: url('./fonts/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2');
 	font-style: italic;
 }
-
-
 @font-face {
-	font-family: 'Fraunces';
-	src: url('./fonts/Fraunces9pt-Regular.woff2') format('woff2');
+	font-family: 'AHL';
+	src: url('./fonts/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2');
+	font-style: bold;
+}
+@font-face {
+	font-family: 'AHL';
+	src: url('./fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2');
 	font-style: normal;
 }
-@font-face {
-	font-family: 'Fraunces';
-	src: url('./fonts/Fraunces9pt-Italic.woff2') format('woff2');
-	font-style: italic;
-}
 
-
-@font-face {
-	font-family: 'PSans';
-	src: url('./fonts/PublicSans-Regular.woff2') format('woff2');
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PSans';
-	src: url('./fonts/PublicSans-Italic.woff2') format('woff2');
-	font-style: italic;
-}
 
 body {
-	font-family: PSans;
+	font-family: AHL;
 	text-align: left;
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -72,21 +54,22 @@ p {
 }
 
 h1 {
-	font-family: FrauncesD;
+	font-family: AHL;
 	line-height: 130%;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: normal;
+	text-align: center;
 }
 
 h2 {
-	font-family: Fraunces;
+	font-family: AHL;
 	font-size: 120%;
 	font-weight: normal;
 	padding-top: 1em;
 }
 
 h3 {
-	font-family: Fraunces;
+	font-family: AHL;
 	font-size: 110%;
 }
 

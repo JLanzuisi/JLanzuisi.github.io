@@ -11,11 +11,16 @@
 
 ## Acerca de mi
 
-Para probar
+Soy un estudiantes de matemáticas en la [Universidad Simón 
+Bolívar](http://www.usb.ve) (USB). Actualmente trabajo de freelancer
 
 ## Estudios
 
 ## Intereses
+
+Me interesa la tipografía y la computación,
+específicamente TeX--- por razones obvias---y los
+sistemas operativos parecidos a UNIX.
 
 ## Notas
 
